@@ -1,0 +1,8 @@
+<h1>Enter Your Name</h1>
+<%= simple_form_for @name do |f| %>
+	<%= f.input :first %>
+	<br />
+	<%= f.input :last %>
+	<br />
+	<%= f.submit 'Tell Me', :class => 'btn btn-primary' %>
+<% end %>
